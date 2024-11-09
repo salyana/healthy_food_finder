@@ -1,7 +1,7 @@
 // app.js
 // import { MAPBOX_ACCESS_TOKEN } from "./config.js";
 
-mapboxgl.accessToken = process.env.MAPBOX_ACCESS_TOKEN; // set the access token
+mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN; // set the access token
 
 const map = new mapboxgl.Map({
   container: "map", // The container ID
