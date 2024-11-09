@@ -1,5 +1,5 @@
 // app.js
-import { MAPBOX_ACCESS_TOKEN } from "./config.js";
+// import { MAPBOX_ACCESS_TOKEN } from "./config.js";
 
 mapboxgl.accessToken = process.env.MAPBOX_ACCESS_TOKEN; // set the access token
 
